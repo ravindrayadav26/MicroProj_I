@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+#Main {
+  width: 100vw;
+  height: 70vh;
+  background: #ffcd9e;
+  display: flex;
+}
+
+#Footer {
+  width: 100vw;
+  height: 30vh;
+  background: #282828;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+
+h1 {
+  width: 562px;
+  height: 108px;
+  top: 83px;
+  left: 136px;
+  font-family: Inter;
+}
+
+#Heading {
+  padding: 5rem 8rem 8rem 13rem;
+  width: 50%;
+}
+
+p {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 360px;
+  height: 100px;
+  top: 219px;
+  left: 136px;
+  color: #484848;
+}
+
+h3 {
+  width: 495px;
+  height: 60px;
+  top: 219px;
+  left: 136px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  top: 411px;
+  left: 136px;
+  border-radius: 8px;
+  border: 4px solid black;
+  text-align: center;
+}
+
+input::placeholder {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 20px;
+}
+
+button {
+  width: 200px;
+  height: 48px;
+  top: 411px;
+  left: 496px;
+  border-radius: 8px;
+  background-color: #484848;
+  color: white;
+}
+
+#Highlight {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-family: Inter;
+  width: 45%;
+  color: #ffffff;
+}
+
+img {
+  height: 500px;
+  top: 20px;
+  left: 818px;
+  padding-right: 10rem;
+}
+
+.Left p {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  height: 30px;
+  align-items: center;
+  padding-left: 6rem;
+}
+
+.Right p {
+  display: flex;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  height: 30px;
+  align-items: flex-end;
+  justify-content: end;
+  padding-right: 8rem;
+}
+
+.Icons {
+  display: flex;
+  justify-content: end;
+  width: 100;
+  padding-right: 8rem;
+}
+
+.Icons img {
+  width: 29.405405044555664px;
+  height: 27.42014503479004px;
+  padding: 0px;
+}
